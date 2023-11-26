@@ -1,0 +1,293 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #f44336;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 8px 16px;
+    color: #fff;
+    transition: 0.3s;
+    font-family: Verdana, sans-serif;
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.active {
+    background-color: #ccc;
+    color: #000;
+}
+
+header {
+
+    background-color: #f44336;
+    padding: 128px 16px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+header h1 {
+    margin: 16px !important;
+    font-size: 64px !important;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    color: #fff !important;
+}
+
+header p {
+
+    font-size: 24px !important;
+    color: #fff !important;
+    margin-bottom: 30px;
+    /* spațiu dedesubt */
+    margin-top: 40px;
+    /* spațiu deasupra */
+
+
+}
+
+
+header button {
+    color: #fff !important;
+    background-color: #000 !important;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 18px !important;
+    margin-top: 30px;
+    /* spațiu deasupra */
+
+}
+
+.grid-container {
+
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1fr);
+
+
+
+}
+
+.grid-child h1 {
+
+    font-size: 36px;
+    font-weight: 400;
+    margin: 10px 0;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 30px;
+    /* spațiu dedesubt */
+    margin-top: 40px;
+    /* spațiu deasupra */
+
+
+
+}
+
+.grid-child h5 {
+
+
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 32px;
+    /* spațiu dedesubt */
+    margin-top: 32px;
+    /* spațiu deasupra */
+
+}
+
+.grid-child p {
+    display: block;
+    font-size: 18px;
+    color: #757575 !important;
+    margin-bottom: 30px;
+    /* spațiu dedesubt */
+    margin-top: 40px;
+    /* spațiu deasupra */
+
+
+}
+
+.grid-child {
+    padding: 60px;
+
+}
+
+.grid-child:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1;
+
+}
+
+.grid-child:nth-child(2) {
+    grid-column: 2;
+    grid-row: 1;
+
+}
+
+.fa {
+    font-size: 200px;
+    color: #f44336;
+    display: flex;
+    justify-content: start;
+    align-content: end;
+
+}
+
+.container-1 {
+
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1fr);
+
+
+
+}
+
+.coffee-text h1 {
+
+    font-size: 36px;
+    font-weight: 400;
+    margin: 10px 0;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 30px;
+    /* spațiu dedesubt */
+    margin-top: 40px;
+    /* spațiu deasupra */
+
+
+
+}
+
+.coffee-text h5 {
+
+
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 32px;
+    /* spațiu dedesubt */
+    margin-top: 32px;
+    /* spațiu deasupra */
+
+}
+
+.coffee-text p {
+    display: block;
+    font-size: 18px;
+    color: #757575 !important;
+    margin-bottom: 30px;
+    /* spațiu dedesubt */
+    margin-top: 40px;
+    /* spațiu deasupra */
+
+
+}
+
+.container-1 {
+    padding: 60px;
+
+}
+
+.container-1:nth-child(1) {
+    grid-column: 2;
+    grid-row: 1;
+
+}
+
+.container-1:nth-child(2) {
+    grid-column: 1;
+    grid-row: 1;
+
+}
+
+.fa-facebook-official {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    color: #757575;
+}
+
+
+.fa-instagram {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    
+    color: #757575;
+}
+.fa-snapchat {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    color: #757575;
+}
+.fa-pinterest-p{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    color: #757575;
+}
+
+.fa-twitter {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    color: #757575;
+}
+.fa-linkedin { 
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    color: #757575;
+}
+
+.container-2 {
+    
+    color: #fff!important;
+    background-color: #757575!important;
+    padding-top: 64px!important;
+    padding-bottom: 64px!important;
+    text-align: center!important;
+    padding: 1px 16px
+    
+    
+}
+.footer-container {
+    padding-top: 32px!important;
+    padding-bottom: 32px!important;
+    font-size: 24px!important;
+    text-align: center!important;
+    line-height: 1.5;
+}
+.footer p {
+    text-align: center!important;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
